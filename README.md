@@ -67,6 +67,13 @@ age = 30
 print("My name is " + name + " and I am " + str(age) + " years old.")
 ```
 
+```
+# The sum of 5 and 10 is 15
+
+print(f"The product of {num1} and {num2} is {num1 * num2}")
+```
+
+
 <p></p>
 
 <p>In this code, we define two variables `num1` and `num2` and assign them the values 5 and 10, respectively. We then add the values of these variables and store the result in a new variable called `sum`. Finally, we print the result.</p>
