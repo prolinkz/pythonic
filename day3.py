@@ -55,6 +55,17 @@ print('''
 
 
 print('''
+    * VS Code Extensions: 
+      Prettier,
+      Vscode-icons, 
+      Jellyfish 
+      theme or GitHub themes, 
+      Github copilot, 
+      Markdown
+      
+      ''')
+
+print('''
       
     Extensions For General Productivity: 
       - GitLens: Enhances Git integration in VS Code, making it easier to view and understand Git history. 
@@ -82,6 +93,8 @@ print('''
         TensorFlow, PyTorch, Keras, Caffe, MXNet, Theano, Chainer, Torch 
       * Web Development Extensions: 
         React, Angular, Vue.js, Express.js, Django, ASP.NET Core, Flask, Laravel, Spring Boot
+      
+
       
       ''')
 
