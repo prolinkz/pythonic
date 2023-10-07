@@ -22,7 +22,7 @@ print('''
       ''')
 
 print('''
-      Assignement:-
+      Assignement:- Important Libraries in Python;
       * Math libraries in Python: NumPy, SciPy.
       * Math/Stat Libraries: Math, Tensorflow, Scipy, Statsmodel, Numba
       * Data Science Libraries: Keras, Theano, Seaborn, OpenCV, LightGBM 
@@ -52,3 +52,36 @@ print('''
 
       
       ''')
+
+
+print('''
+      
+    Extensions For General Productivity: 
+      - GitLens: Enhances Git integration in VS Code, making it easier to view and understand Git history. 
+      - Code Spell Checker: Helps you catch spelling errors in your code and comments. 
+      - Markdown All in One: Offers a suite of features for working with Markdown files, which are commonly used for documentation and reports in data science. 
+      - Markdown Preview Enhanced: Provides enhanced Markdown preview capabilities, including live preview and support for LaTeX equations. 
+      - Bracket Pair Colorizer: Helps you identify matching brackets in your code by coloring them.
+      
+    Extensions For AI, ML, and DL: 
+      - Python: The official Python extension provides support for editing, linting, debugging, and running Python code.
+      - Jupyter: Allows you to work with Jupyter notebooks directly within VS Code, which is common in data science and machine learning workflows.
+      - TensorFlow Snippets: Provides a collection of code snippets for TensorFlow, making it easier to write TensorFlow code.
+      - PyTorch Snippets: Similar to TensorFlow Snippets, this extension offers code snippets for PyTorch. \
+      - Kite: An AI-powered autocomplete plugin for Python that suggests code completions and documentation as you type. 
+      - Pylance: Enhances Python development with features like type checking, auto-imports, and code intelligence.
+
+      
+      ''')
+
+print('''
+    # Assignment2 - VS Extensions
+      * Artificial Intelligence and Machine Learning Extensions: 
+        TensorFlow, PyTorch, scikit-learn, Keras, XGBoost, LightGBM, Caffe, MXNet, H2O, Spark MLlib 
+      * Deep Learning and Neural Networks Extensions: 
+        TensorFlow, PyTorch, Keras, Caffe, MXNet, Theano, Chainer, Torch 
+      * Web Development Extensions: 
+        React, Angular, Vue.js, Express.js, Django, ASP.NET Core, Flask, Laravel, Spring Boot
+      
+      ''')
+
