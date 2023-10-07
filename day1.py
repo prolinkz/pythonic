@@ -21,13 +21,19 @@ print('''
 
 
 #String and Vairable
-name = "John"
-age = 30
-print(f"My name is {name} and I am {age} years old.")
-
 
 #String Concatenation - +
+
+name="John" #This is a string data type
+age = 30
+print("My name is " + name + " and I am " + str(age) + " years old.")
+# Output: My name is John and I am 30 years old.
 
 
 
 #String Interpolation - curly braces {}
+
+name = "John"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+# Output: My name is John and I am 30 years old.
