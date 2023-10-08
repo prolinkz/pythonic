@@ -56,12 +56,12 @@ print('''
 
 print('''
     * VS Code Extensions: 
-      Prettier,
-      Vscode-icons, 
-      Jellyfish 
-      theme or GitHub themes, 
-      Github copilot, 
-      Markdown
+      - NoteBook [.ipynb] : Jupyter, Jupytar KeyMap, Jupyter NoteBook Render      
+      - Icons:  Vscode-icons, Matrial Theme icons
+      - Themes: Jellyfish, GitHub themes, 
+      - GitHub:  Github copilot (Free For GitHub Student Plan), Codium (Free), Blackbox AI 
+      - Code Formatter: Prettier
+      - Markdown [keyboard shortcuts] : Markdown All In One
       
       ''')
 
@@ -98,3 +98,17 @@ print('''
       
       ''')
 
+
+# Pythion IDE - Integrated Development Environment 
+print('''
+      THere are varius IDE's to run the Python code, we use visual Studio beacuse, it has;
+      1. Built-in Python support: syntax highlighting, completion, linking
+      2. Intellisense: intellgent code completion, github co-pilot support
+      3. Debuging: breakpoints, variable inspection
+      4. Extionsions: add more Python functionality (Playstore/appstore)
+      5. Integrates with Tools: Pipenv, virtualenv, Django, Flask
+      6. Multiplatform: work on Windows, macOS and Linux
+      7. Customizable: themes, keybindings, settings
+      8. Lightweigth and Fast
+      
+      ''')

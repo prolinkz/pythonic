@@ -18,5 +18,6 @@ This is covered in two main parts, with subsections:
     Single-shot: Make the predictions all at once.
     Autoregressive: Make one prediction at a time and feed the output back to the model.
     url ="https://www.tensorflow.org/tutorials/structured_data/time_series"
+      
       ''')
 
