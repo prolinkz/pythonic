@@ -106,17 +106,57 @@ print('''
             print(x != y)
             print(x && y)
             print(x || y)
-
-    # Logical Operators
-            print( )
-            
-            
-            ''')
+      
 
 
+''')
+
+## Comparision Operators 
+a = 5
+b = 2
+
+# equal to operator
+print('a == b =', a == b)
+
+# not equal to operator
+print('a != b =', a != b)
+
+# greater than operator
+print('a > b =', a > b)
+
+# less than operator
+print('a < b =', a < b)
+
+# greater than or equal to operator
+print('a >= b =', a >= b)
+
+# less than or equal to operator
+print('a <= b =', a <= b)
 
 
-# Data Types
+
+## Logical Operators
+
+# logical AND
+print(True and True)     # True
+print(True and False)    # False
+
+# logical OR
+print(True or False)     # True
+
+# logical NOT
+print(not True)          # False
+
+# Example
+a = 5
+b = 6
+
+print((a > 2) and (b >= 6))    # True
+
+
+
+
+## Data Types
 
 n = 5   # Integers
 y = 5.0     # Float
@@ -128,4 +168,22 @@ b = (1, 2, 3)   #tuple
 c = {"Usama":5, "Laiba":5.2, "Irum":6.0}   # Dictionary "key":value
 d= {1,2,3}  # Set
 
-    
+
+
+## CONDITIONAL STATEMENTS
+if True:
+    print("This is true!")
+else:
+    print("This is false.")
+    x = int(input("Enter x:"))
+    y = input("Enter y:")
+    if x > 5 and len(y)>4:
+        print("x is greater than five and length of string y is more than four characters.")
+    else:
+        print("Either condition is False")
+        ## LOOPING STRUCTURES
+        for i in "Hello World":           ## Iterating through each character present inside Hello world String
+            for i in range(6):
+                print(i**2)
+                break
+
