@@ -219,15 +219,6 @@ else :
     print("Zero")
 
 
-
-
-## FOR Loop
-for letter in 'Python':
-    count += 1
-    print(count)
-    break
-
-# Another For loop Example
 foods = ["Dahi Bhalay", "Chicken Karai", "Samosa Chart", "Daal Rice", "Biryani"]
 for food in foods:
     print(food)
@@ -235,33 +226,144 @@ for food in foods:
     # for(x=0, x>9, x++)
     # print(x)
 
-## WHILE Loops
-while guess != 'answer':
-    guess = int(input())
-    if guess == 'answer'':
-        print('Congratulations! You got it right')
-    elif guess > 'answer':
-        print('Too high')
-    continue
+    menu = ["Dahi Bhalay", "Chicken Karai", "Samosa Chart", "Daal Rice", "Biryani"]
+for food in menu:
+    print(food)  # it will print all items in menu variable one by one
 
-elif guess < answer:
-    print('Too low')
-    print('Keep trying...')
+    #the Above FOR Loop statement works, like we do manually as below;
+    print(menu[0])  # for Dahi Bhalay
+    print(menu[1])  # for Chicken Karai
+    print(menu[2])  # for Samosa Chart
+    print(menu[3])  # for Daal Rice  
+    print(menu[4])  # for Biryani
+    
+# Another For loop Example
+    ## FOR Loop with Break Controll statement
+for letter in "Python":
+    if letter == 'h':
+        break       # this will break on letter h, and print only p, y, t letters.
+    print(letter)
+    print("Done!")
+    print('End of program')
+
+        ## FOR Loop with Continoue Controll statement. 
+for letter in "Python":
+    if letter == 'h':
+        continue            # this will break (hide) on letter h, and print all others letters, like p, y, t, o, n.
+    print(letter)
+    print("Done!")
+    print('End of program')
+
+## FOR Loop with Pass Controll statement
+for letter in "Python":
+    if letter == 'h':
+        pass             # this will pass the value on h, and print all letters
+    print(letter)
+    print("Done!")
+    print('End of program')
+    
+
+    ## FOR Loop with Break statement
+for letter in 'Python':
+    count += 1
+    print(count)
     break
 
+## WHILE Loops
+# Example No. 1
+i = 1
+while i < 6:
+    print (i)
+    i += 1
+    print('Done!')
+
+# Example No. 2
+i = 0
+while i < 3:
+    j = 0
+    while j < 3:
+        print (i,j)
+        j += 1
+    i += 1
+    print('Done!')
+
+## For loop inside Whille loop
+i =1
+while i > 4:
+    for j in range(3):  # range is function, and 3 is value
+        print(i,j)
+        i += 1
+
+# while loop inside for loop for 
+    for i in range(4): 
+        j=1 
+    while j < 5: 
+        print(i, j) 
+        j += 1
+
+
+
 ## SWITCH Case
-months = ['Jan', 'Feb', 'Mar']
-day_of_week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-switcher = {
+    months = ['Jan', 'Feb', 'Mar']
+    day_of_week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    switcher = {
             months[i]: day_of_week[i] for i in range(3)}
-month = input("Enter Month: ")
-weekday = switcher.get(month, "Invalid month")
-print(f"{month} falls on a {weekday}")
-case "Apr", "May":
-print("Spring Season")
-case "Jun", "Jul", "Aug":
-print("Summer Season")
-case "Sep", "Oct", "Nov":
-print("Autumn Season")
-case "Dec", "Jan":
-print("Winter Season")
+    month = input("Enter Month: ")
+    weekday = switcher.get(month, "Invalid month")
+    print(f"{month} falls on a {weekday}")
+    case "Apr", "May":
+    print("Spring Season")
+
+    case "Jun", "Jul", "Aug":
+    print("Summer Season")
+
+    case "Sep", "Oct", "Nov":
+    print("Autumn Season")
+    
+    case "Dec", "Jan":
+    print("Winter Season")
+
+
+
+## Nested Loops (For Inside For loop) - Nested means Loop within another loop, used for multi-dimentional data structure.
+
+
+# Example No.1 
+    colors = ['red', 'green', 'blue']
+    items = ['pen', 'pencil', 'book']
+    for color in colors:
+        for item in items:
+            print(color + "-" + item)  # this to get output as red-pen, green-pencil etc.
+            print(color, item) # this to get output as red-pen, red-pencil, red-book, green-pen, green-pencil, and so on.
+            # 9 times because there are 3 colors and 3 items
+
+
+#Example no2
+    for num in range(5):
+        for char in "Python":
+            print(char * num)
+
+# For loop inside while loop
+    colors = ['red', 'green', 'blue']
+    count = 0
+    while count <= len(colors):
+        color = colors[count] # Get the current color from list of colors
+        if color =='red':
+            print ('Stop at red.')
+            break # Exit the loop when we hit red
+        else:
+            print (color)
+    else:
+            print ("This is not a valid color.")
+
+
+# For loop inside while loop
+
+    for num in range(5):
+        guess = int(input("Guess the number:"))
+        if guess == randomNumber:
+            print("You are correct!")
+        else:
+            print ("Sorry you guessed wrong.")
+
+
