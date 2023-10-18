@@ -27,9 +27,9 @@ print('''
     
       
     Commands: 
-      - conda list  # list files/apps
-      - conda env list  # list environments
-      - conda create -n environment_name    # -n for new
+      - conda list  # list all files/apps from current environment
+      - conda env list  # list all environments
+      - conda create -n environment_name    # -n for new. We can add the specific python version to install
       - For more, visit https://docs.conda.ai/projects/conda/
 
       # Assignmet:
@@ -42,7 +42,9 @@ print('''
 
       # We can install libraries in python using pip command
       - type >> pip install numPy sciPy matplotlib seaborn pandas plotly statsModels (Enter to install libraries under python_ead toolbox/room/envirnoment)
-
+      - or we can install libraries from a file contating all the required packages for a project. This provides benifit to record the install libraries for future concern, when required runiining this project on another machine.
+         First we create a .txt file i.e requirements.txt, then write the libraries names [Pandas, numpy, mypy, jupiter] each one on new line >> Now run this file from any file
+         >> pip install -r requirements.txt 
 
       ''')
 
