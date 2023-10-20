@@ -325,6 +325,24 @@ while i > 4:
 
 
 
+#### Harry YT Python video  
+## SWITCH CASE
+    a = int(input("Enter yournNumber: "))
+     
+    match a:
+    case 1:
+    print("case is 1")
+    case 2:
+    Print("case is 2")
+    case 13:
+    Print("case is 13")
+    case 42:
+     Print("case is 13")
+    case _:     # default case
+    Print("Nothing Found in list")
+    
+    
+
 ## Nested Loops (For Inside For loop) - Nested means Loop within another loop, used for multi-dimentional data structure.
 
 
