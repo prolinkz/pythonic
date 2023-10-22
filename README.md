@@ -7,18 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-
+### Python file extensions
 - To save a file in Python format, a <code> .py </code> extension will used.
-- To save a Python Notebook file, the file extension wiould be used <code> .pynb </code> where we can write and save text notes and code at single file
+- To save a Python Notebook file, the file extension wiould be used <code> .pynb </code> where we can write code and document it metadata at single file.
 - Hash (#) is used in Python for a comment.
 
+## Python Data Types
 ### String's
 
 - Double quotation <code> print("Hello") </code>
 - single quotation <code> print('Learn Python') </code>
 - Multi line quotation <code>   print(''' Multiline String - using Tripple quotations ''' )   </code>
 
-  ### Opertor's
+## Opertor's
 
 - Addition                     <code> print(2+5) </code>
 - Substration                  <code> print(2-5) </code>
@@ -27,7 +28,8 @@
 - Remainder, after division    <code> print(13%2) </code>
 - Exponent/Power               <code> print(2**6) </code> i-e: 2x2x2x2x2
 
- #### PEMDAS Rule - Paranthesis, Exponent, Multiplication, Division, Addidtion, Substraction
+ #### PEMDAS Rule - Paranthesis, Exponent, Multiplication, Division, Addidtion, Substraction (Python use this model)
+ #### BODMAS Rule - Bracket, Order/Power, Division, Multiplication, Addidtion, Substraction
  
 
 ## How To Add (+) 2 digits or variable values in Python
@@ -106,15 +108,15 @@ print(f"My name is {name} and I am {age} years old.")
 # Output: My name is John and I am 30 years old.
 ```
 
-<b>4. String Multiplication:</b> This is the process of repeating a string a specified number of times. In Python, you can use the '*' operator to multiply strings. For example, 'Hello, ' * 3 results in the string 'Hello, Hello, Hello, '.
+<b>4. String Multiplication:</b> This is the process of <emp>repeating a string</emp> a specified number of times. In Python, you can use the '*' operator to multiply strings. For example, 'Hello, ' * 3 results in the string 'Hello, Hello, Hello, '.
 
-<b>5. String Slicing:</b> This is a way to extract a portion of a string. In Python, you can use slicing to achieve this. For example, 'Hello, World!'[0:5] results in the string 'Hello'.
+<b>5. String Slicing:</b> This is a way to extract a portion of a string. In Python, you can use <emp>slicing</emp> to achieve this. For example, 'Hello, World!'[0:5] results in the string 'Hello'.
 
-<b>6. String Methods:</b> Python provides a set of built-in methods for strings. For example, len('Hello, World!') returns the length of the string, which is 13.
+<b>6. String Methods:</b> Python provides a set of built-in methods for strings. For example, len('Hello, World!') returns the <emp>length of the string</emp>, which is 13.
 
-<b>7. String Formatting:</b> This is a way to format strings using placeholders. In Python, you can use the str.format() method or f-strings to achieve this. For example, 'The sum of {} and {} is {}'.format(num1, num2, sum) results in the string 'The sum of 5 and 10 is 15'.
+<b>7. String Formatting:</b> This is a way to format strings using placeholders. In Python, you can use the <emp>str.format() method or f-strings</emp> to achieve this. For example, 'The sum of {} and {} is {}'. format(num1, num2, sum) results in the string 'The sum of 5 and 10 is 15'.
 
-<b>8. String Escaping:</b> This is a way to include special characters in a string. In Python, you can use escape characters to achieve this. For example, 'Hello, \nWorld!' results in the string 'Hello, ' followed by a newline character and then the string 'World!'.
+<b>8. String Escaping:</b> This is a way to <emp>include special characters</emp> in a string. In Python, you can use <emp>escape characters</emp> to achieve this. For example, 'Hello, \nWorld!' results in the string 'Hello, ' followed by a __newline character__ and then the string 'World!'.
 
 <b>9. String Strip:</b> This is a way to remove leading and trailing characters from a string. In Python, you can use the str.strip() method to achieve this. For example
 </p>

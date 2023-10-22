@@ -218,7 +218,7 @@ elif x < 0 :
 else :
     print("Zero")
 
-
+#### FOR LOOP for itterating value. Repitittion
 foods = ["Dahi Bhalay", "Chicken Karai", "Samosa Chart", "Daal Rice", "Biryani"]
 for food in foods:
     print(food)
@@ -236,6 +236,18 @@ for food in menu:
     print(menu[2])  # for Samosa Chart
     print(menu[3])  # for Daal Rice  
     print(menu[4])  # for Biryani
+
+
+
+# FOR Loop in Rnage
+for i in range(5)     # print i value upto 5
+print(i+1)         # if we only use (i), it prints upto value 4, so i=1=5.
+
+# we also can run for loop on a list 
+a = [1, 36, 567, 76, 354]
+for item in a:
+    print(item)     # print all list, we also can indexed value item[0]
+
     
 # Another For loop Example
     ## FOR Loop with Break Controll statement
@@ -269,7 +281,7 @@ for letter in 'Python':
     print(count)
     break
 
-## WHILE Loops
+#### WHILE Loops
 # Example No. 1
 i = 1
 while i < 6:
@@ -286,6 +298,17 @@ while i < 3:
         j += 1
     i += 1
     print('Done!')
+
+
+# use break condition in While loop. 
+## Example take input from user, and print it but on value 0 input the program will finished
+while (True):
+    num = int(input("Enter your number:"))
+              print(num)
+              if(num==0):
+              break
+    print("program has been finished executing . . .")
+
 
 ## For loop inside Whille loop
 i =1
@@ -324,6 +347,24 @@ while i > 4:
     print("Winter Season")
 
 
+
+#### Harry YT Python video  
+## SWITCH CASE
+    a = int(input("Enter yournNumber: "))
+     
+    match a:
+    case 1:
+    print("case is 1")
+    case 2:
+    Print("case is 2")
+    case 13:
+    Print("case is 13")
+    case 42:
+     Print("case is 13")
+    case _:     # default case
+    Print("Nothing Found in list")
+    
+    
 
 ## Nested Loops (For Inside For loop) - Nested means Loop within another loop, used for multi-dimentional data structure.
 
