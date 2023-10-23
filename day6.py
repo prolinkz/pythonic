@@ -240,8 +240,8 @@ for food in menu:
 
 
 # FOR Loop in Rnage
-for i in range(5)     # print i value upto 5
-print(i+1)         # if we only use (i), it prints upto value 4, so i=1=5.
+for i in range(5):     # print i value upto 5
+    print(i+1)         # if we only use (i), it prints upto value 4, so i=1=5.
 
 # we also can run for loop on a list 
 a = [1, 36, 567, 76, 354]
@@ -304,9 +304,9 @@ while i < 3:
 ## Example take input from user, and print it but on value 0 input the program will finished
 while (True):
     num = int(input("Enter your number:"))
-              print(num)
-              if(num==0):
-              break
+    print(num)
+    if(num==0):
+        break
     print("program has been finished executing . . .")
 
 
@@ -334,10 +334,10 @@ while i > 4:
     month = input("Enter Month: ")
     weekday = switcher.get(month, "Invalid month")
     print(f"{month} falls on a {weekday}")
-    case "Apr", "May":
+    case ("Apr", "May"):
     print("Spring Season")
 
-    case "Jun", "Jul", "Aug":
+    case 'Jun', 'Jul', 'Aug':
     print("Summer Season")
 
     case "Sep", "Oct", "Nov":
@@ -350,19 +350,19 @@ while i > 4:
 
 #### Harry YT Python video  
 ## SWITCH CASE
-    a = int(input("Enter yournNumber: "))
+a = int(input("Enter yournNumber: "))
      
-    match a:
+match a:
     case 1:
-    print("case is 1")
+        print("case is 1")
     case 2:
-    Print("case is 2")
+        Print("case is 2")
     case 13:
-    Print("case is 13")
+        Print("case is 13")
     case 42:
-     Print("case is 13")
+        Print("case is 13")
     case _:     # default case
-    Print("Nothing Found in list")
+        Print("Nothing Found in list")
     
     
 
@@ -370,12 +370,12 @@ while i > 4:
 
 
 # Example No.1 
-    colors = ['red', 'green', 'blue']
-    items = ['pen', 'pencil', 'book']
-    for color in colors:
-        for item in items:
-            print(color + "-" + item)  # this to get output as red-pen, green-pencil etc.
-            print(color, item) # this to get output as red-pen, red-pencil, red-book, green-pen, green-pencil, and so on.
+colors = ['red', 'green', 'blue']
+items = ['pen', 'pencil', 'book']
+for color in colors:
+    for item in items:
+        print(color + "-" + item)  # this to get output as red-pen, green-pencil etc.
+    print(color, item) # this to get output as red-pen, red-pencil, red-book, green-pen, green-pencil, and so on.
             # 9 times because there are 3 colors and 3 items
 
 
@@ -402,7 +402,7 @@ while i > 4:
 
     for num in range(5):
         guess = int(input("Guess the number:"))
-        if guess == randomNumber:
+        if guess == 'randomNumber':
             print("You are correct!")
         else:
             print ("Sorry you guessed wrong.")

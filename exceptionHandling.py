@@ -3,16 +3,15 @@
 ## user can input any value, so it the programmer responsibility to teach the machine that the data input by the User is not valid, and gave Error msg
 # For Example, below the user is needed to inout the number but what if he input the string 
 num1 = int(input("Enter your number hers: "))
-           print(num1 + 3)  # print user input value and plus + 3 to it
+print(num1 + 3)  # print user input value and plus + 3 to it
            # what if the user input the string value, it will give error
   # To control this issue, programmer need to handle it theough try and except:
-
-  try:
+try:
     num2 = int(input("Enter your number here: "))
     print(num2 + 3)   # it will print value input + 3, if it takes number value
-    except:
-    print("Enter correct number in text box")   # Through Error message, if it recieve text string instead
-    print("Thank You!")
+except:
+  print("Enter correct number in text box")   # Through Error message, if it recieve text string instead
+  print("Thank You!")
 
 ## If you want to print the error type, we can use the Exception as e: function. Example
 try:
@@ -32,8 +31,8 @@ with open("text.txt", "w") as f:
 
 ## Open txtet file to 
 fp = open("text.txt", "w")
-fp.write((s)
-         fp.close()
+fp.write(s)
+fp.close()
 
 ## Reading a file. we use "r" to read a file
 

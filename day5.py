@@ -172,18 +172,66 @@ d= {1,2,3}  # Set
 
 ## CONDITIONAL STATEMENTS
 if True:
-    print("This is true!")
-else:
-    print("This is false.")
-    x = int(input("Enter x:"))
-    y = input("Enter y:")
-    if x > 5 and len(y)>4:
-        print("x is greater than five and length of string y is more than four characters.")
-    else:
-        print("Either condition is False")
-        ## LOOPING STRUCTURES
-        for i in "Hello World":           ## Iterating through each character present inside Hello world String
-            for i in range(6):
-                print(i**2)
-                break
+  print("This is true!")
+else: 
+   print("This is false.")
+    
 
+## IF -Else
+    
+x = int(input("Enter x:"))
+y = input("Enter y:")
+if x > 5 and len(y)>4:
+  print("x is greater than five and length of string y is more than four characters.")
+else:
+  print("Either condition is False")
+  
+
+
+####  Another Example  
+x = 4
+y = 7
+if x < y:
+  print("x is smaller than y.")
+else:
+  print("x is not smaller than y.")
+
+
+## LOOPING STRUCTURES
+for i in "Hello World":           ## Iterating through each character present inside Hello world String
+  for i in range(6):
+    print(i**2)
+    break
+
+
+## Nested Loops
+
+for num in range(1, 9):
+  if num % 2 == 0:
+    continue
+  else:
+    print(num)
+    # FLOW CONTROL STATEMENTS
+    break
+
+
+# NESTED FOR-LOOP
+  for j in range(1, 8):
+    if (j+1)%2==0:
+      continue
+    else:
+      print(f"{num} * {j} = {num*j}")
+      break
+
+
+# Another Example
+for i in range(5):
+    print(i)
+    while True:
+        break
+
+
+## Functions
+def myFunction():
+  return "Hello World!"
+    
