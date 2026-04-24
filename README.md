@@ -125,3 +125,4 @@ print(f"My name is {name} and I am {age} years old.")
 
   
 
+<img width="968" height="632" alt="image" src="https://github.com/user-attachments/assets/e8f06874-a586-48f3-a263-b280bf52a908" />
